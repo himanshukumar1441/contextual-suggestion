@@ -1,4 +1,4 @@
-for converting a prural word to its singular form: done with every word
+//for converting a prural word to its singular form: done with every word//
 
 from nltk.stem import WordNetLemmatizer
 
@@ -8,7 +8,7 @@ def isplural(word):
     word = word.lower()
     lemma = wnl.lemmatize(word, 'n')
     return lemma
---------------------------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------//
 text = text.split('.')   # text is the output we got in txt file
 text1 = []
 for i in text:
@@ -16,7 +16,7 @@ for i in text:
 text1.remove[0][0]
 text1.remove[0][0]
 
-after all this text1 will be a list of list it will be passed in relevant words module.
-------------------------------------------------
+//after all this text1 will be a list of list it will be passed in relevant words module.//
+//------------------------------------------------//
 
 
