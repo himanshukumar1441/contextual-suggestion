@@ -1,0 +1,452 @@
+for synset word :
+
+[ [0,'amateur archaeology'],
+  [1,'archeology' ],
+  [1,'bar'],
+  [1,'beach','seashore'],
+  [0,'coffeehouse','bistro','cafeteria','chophouse','coffee bar','coffee shop','diner','pit stop','snack bar','tearoom'],
+  [0,'chinatown'],
+  [1,'christmas'],
+  [1,'church'],
+  [0,'city walk','citywalks','citywalk'],
+  [0,'clean streets','cleanstreet','clean street','cleanstreets','clean-street','clean-streets'],
+  [0,'countryside','back roads','country-side'],
+  [0,'deep sea fishing','deep-sea fishing'],
+  [1,'desert'],
+  [1,'diving','swim'],
+  [1,'dolphinfish','dolphin']
+  [0,'promenade','excursion','digression',  'jaunt', 'pleasure trip',  'ramble','round trip','short trip',  'wandering'],
+  [1,'fashion'],
+  [1,'soccer','football'],
+  [1,'forest','jungle','woodland'],
+  [1,'gambling'],
+  [0,'healthy food','healthy meal','healthy breakfast','healthy lunch','healthy cuisine','healthy diet','healthy snack'],
+  [0,'horse racing','horse-racing','horseracing'],
+  [1,'kayaking'],
+  [0,'live music'],
+  [0,'alpinism',  'backpacking','hill-climbing','rock-climbing','hill climbing',  'rock climbing','hillclimbing',  'rockclimbing'],
+  [1,museum],
+  [0,'nature walk'],
+  [0,'aurora borealis','northern light','northern lights'],
+  [1,'paella'],
+  [1,'park'],
+  [1,'photography'],
+  [1,'boardwalk','stroll','promenade','amble'],
+  [1,'rafting'],
+  [0,'rainforest','rain-forest','rain forest'],
+  [1,'reef','witwatersrand','cay'],
+  [1,'relaxation','reclining'],
+  [1,'embankment','riverside','lakefront','lakeshore','lakeside','levee','riverfront','waterfront'],
+  [1,'romantic',''amatory','quixotic'],
+  [1,'seafaring','sailing','sail','voyage'],
+  [1,'beach','seashore'],
+  [1,'seafood'],
+  [1,'accessories','accessory'],
+  [1,"apparel","clothe",'clothing','costume','dress','garment','outfit','sportswear','suit','wardrobe','cloth'],
+  [1,'food'],
+  [1,'footwear','shoe'],
+  [1,'skyline','horizon'],
+  [0,'souk','bazaar','grocery store','stall'],
+  [0,'street musician'],
+  [1,'nightfall','sundown','twilight','sunset'],
+  [1,'tango'],
+  [1,'tapas','tapa'],
+  [0,'walking','hike','promenade','excursion','digression',  'jaunt', 'pleasure trip',  'ramble','round trip','short trip',  'wandering'],
+  [0,'warm weather','warm-weather'],
+  [0,'wellness','robustness','wellbeing','vigor'],
+  [0,'wine travel','wine tour'],
+  [1,'climb','climbing'],
+  [0,'aeroplane flying', 'aerobatics', 'air sphering', 'astronomy', 'base jumping', 'bungee jumping', 'falconry', 'gliding', 'gyrocopter flying', 'hang gliding', 'helicopter flights', 'hot air balloon rides', 'indoor skydiving', 'kites', 'microlights', 'model airplanes', 'model rockets', 'paragliding', 'paramotoring', 'parascending', 'scad', 'suspended catch air device', 'skydiving', 'wing walking', 'adventure races', 'air rifle', 'air pistol shooting', 'airsoft', 'american football', 'animal parks', 'wildlife parks', 'zoos', 'archery', 'athletics', 'backyard sleepovers', 'badminton', 'baseball', 'softball', 'basketball', 'baton twirling', 'battle reenactments', 'beach', 'beachcombing', 'bicycle polo', 'bird watching', 'bmx biking', 'boccia', 'bouldering', 'bowls', 'brushboarding', 'bushcraft', 'camel trekking', 'camogie', 'camping', 'canyoning', 'canyoneering', 'capoeira', 'carnivals', 'carriage driving', 'cave biking underground', 'caving', 'potholing', 'cheerleading', 'chinese martial arts', 'circus skills', 'clay pigeon shooting', 'climbing', 'concert', 'festival', 'gig', 'conkers', 'cookout', 'crazy golf', 'mini golf', 'pitch and putt', 'cricket', 'croquet', 'cycling', 'dance', 'street dance', 'den building', 'bivouacs', 'digger and jcb driving', 'dodgeball', 'dog scootering', 'drag racing', 'driving', 'duathlon', 'eclipse sphering', 'eclipse zorbing', 'equestrian', 'horse riding', 'racing', 'dressage', 'exercise and fitness', 'exploring holidays', 'fencing', 'fives', 'rugby', 'floorball', 'folk dancing', 'footbags', 'football and soccer', 'free running', 'parkour', 'fruit picking', 'fun fairs', 'futsal', 'gaelic football', 'gap year travelling', 'gardening', 'geocaching', 'gladiator training', 'goalball', 'go ape', 'go karting', 'golf holidays', 'grass skiing', 'grass sledging', 'grass karting', 'greyhound racing', 'grouse shooting', 'gymnastics', 'handball', 'harness racing', 'hiking holidays', 'hockey', 'horse boarding', 'horse racing', 'horse riding', 'hurling', 'jogging', 'running', 'jousting', 'kite boarding', 'kite buggying', 'korfball', 'lacrosse', 'landboarding', 'land sailing', 'land yachting', 'landscape painting', 'laser clay shooting', 'laser tag', 'lawn mower racing', 'llama trekking', 'marathon running', 'minimoto', 'modern pentathlon', 'monster truck', 'motorcycling', 'motocross', 'dirt biking', 'motor sports', 'mountain bikes', 'mountain boarding', 'mountaineering', 'mud racing', 'nascar', 'netball', 'obstacle course races', 'open air theatre', 'orienteering', 'outdoor movie theatres', 'outdoor photography', 'paintballing', 'ping pong', 'picnics', 'football', 'sunbathing', 'pentathlon', 'petanque', 'picnics', 'piggy back fights', 'pogo', 'pony trekking', 'polo', 'polocrosse', 'quad biking', 'rally driving', 'rambling', 'remote control cars', 'rock climbing', 'roller coasters', 'theme parks', 'roller skating', 'roller blading', 'hockey', 'rope swings', 'rounders', 'quoits', 'safari', 'sandboarding', 'scavenger hunts', 'scooter freestyle', 'segway offroading', 'shinty', 'shooting', 'show jumping', 'skateboarding', 'skeet shooting', 'skid pan', 'skipping', 'sightseeing', 'slacklining', 'soap box kart racing', 'extreme gravity racing', 'softball', 'soft martial arts', 'speedway', 'sphering', 'steam train', 'stock car racing', 'demolition derby', 'stoolball', 'street hockey', 'street improvisation', 'drama', 'street luge', 'downhill skateboarding', 'downhill skating', 'table tennis', 'tag rugby', 'tank driving', 'tennis', 'throw and catch', 'frisbee', 'tractor pulling', 'trail running', 'trampolining', 'treasure hunting', 'metal detectors', 'tree climbing', 'treehouses', 'triathlon events', 'tug of war', 'unicycling', 'via ferrata', 'volleyball', 'walking holidays', 'walk the dog', 'watch the sunrise or sunset', 'water fights', 'wildlife conservation', 'wildlife watching holidays', 'yoga', 'zorbing', 'argo cats', 'banana rides', 'blackwater rafting', 'boating, pedalos and punts', 'body boarding', 'bore surfing', 'bridge jumping', 'canoeing', 'cave diving', 'coasteering', 'crabbing', 'diving (swimming)', 'dragon boat racing', 'exploring rock pools', 'fishing trips', 'flyboard, waterjet powered hover board', 'free diving', 'hovercraft experience', 'hydrospeeding and riverboarding', 'jet skiing', 'kayaking', 'kitesurfing', 'kneeboarding', 'model boats', 'motor cruising holidays', 'narrow boat holidays', 'octopush underwater hockey', 'pond dipping', 'pooh sticks, paper boats, duck races and dam building', 'powerboating courses', 'raft building', 'rib riding', 'river bugging', 'rowing', 'sailing', 'scuba diving', 'skim boarding', 'snorkelling', 'stand up paddleboarding', 'surfing', 'surf life saving', 'swimming', 'tall ship holidays', 'tombstoning', 'wakeboarding', 'water jet pack flying', 'water parks and flumes', 'water polo', 'water skiing', 'waterwalkerz water sphering', 'waveskiing', 'whale watching holidays', 'whitewater rafting trips', 'wild swimming', 'windsurfing', 'yacht charters', 'yachting', 'zap cat racing', 'ice skating', 'short-track speed skating', 'speed skating', 'skiing', 'alpine skiing', 'biathlon', 'skiing', 'nordic combined', 'ski archery', 'skiboarding', 'skibob', 'skijoring', 'ski jumping', 'snowkiting', 'speed skiing', 'speed riding', 'telemark skiing', 'sledding', 'bobsled', 'dogsled racing', 'ice blocking', 'luge', 'skeleton', 'wok racing', 'snowboarding', 'boardercross', 'slalom', 'snowskating', 'slopestyle', 'snowmobiling', 'bandy', 'broomball', 'curling', 'ice hockey', 'ice stock sport', 'ringette', 'rink bandy', 'sledge hockey', 'snow rugby', 'snow snake', 'synchronized skating', 'ice boating', 'ice sailing', 'ice fishing', 'ice swimming', 'shinny', 'snowball fight', 'tobogganing', 'snowshoeing'],
+  ,[],
+  [0,'ancient building','historical building','ancient monument','historical monument','historical park','historical place','ancient landmark','ancient landmarks']
+  [0,'aquarium']
+  [1,'construction','architecture']
+  [1,'art','artwork']
+  [0,'art galary,'art galaries']
+  [],
+  [0,'beautiful forest','beautiful jungle','beautiful woodland','beautiful woods','charming forest','stunning forest']
+  [1,'fort','fortress','palace','castle']
+  [1,'cheese']
+  [],
+  [],
+  [1,'cocktail'],
+  [0,'public transport','bus','trains'],
+  [0,'country music'],
+  [1,'cycling'],
+  [0,'dim sum'],
+  [1,'disneyland'],
+  [0,'family'],
+  [0,'fine dining'],
+  [1,'flamenco'],
+  [0,'gourmet food'],
+  [1,'harbour','harbor','seaport'],
+  [1,'spa'],
+  [0,'heli-skiing','heliskiing'],
+  [0,'hot spring','hot-spring','warm-spring','warm spring'],
+  [0,'ice sculpture'],
+  [1,'jazz'],
+  [0,'local food'],
+  [1,'market','grocery_store','marketplace'],
+  [0,'maya ruins','maya-ruins'],
+  [0,'mini golf','minigolf','mini-golf'],
+  [0,'mountain walks','mountain walk'],
+  [0,'choral','orchestral','symphonic','vocal','musical'],
+  [0,'nature'],
+  [0,'night market','night-market'],
+  [0,'old town','old-town','old city'],
+  [0,'opera'],
+  [0,'organic food'],
+  [0,'pebble beach','pebble-beach'],
+  [1,'public_house', 'pub', 'saloon', 'pothouse', 'gin_mill', 'taphouse'],
+  [0,'route 66'],
+  [0,'rugby','american football'],
+  [0,'running','run'],
+  [1, 'scenery'],
+  [0, 'antique'],
+  [0,'snowboarding','snowboard'],
+  [0,'street food','streetfood','street-food'],
+  [0,'sun bathing','sun-bath','sun-bath','sunbath','sunbath','sun bath'],
+  [0,'sunshiny', 'sunny'],
+  [0,'theater','theatre','dramaturgy'],
+  [1,'tourism'],
+  [1,'tour','trip','excursion','janket'],
+  [0,'walking trail','trail walking'],
+  [1,'vinery','vineyard'],
+  [],
+  [1,'cascade','waterfall'],
+  [1,'swimming','swim'],
+  [1,'adventure','venture'],
+  [1,'beer'],
+  [1,'botanical_garden','arboretum'],
+  [1,'bussiness','commercial_enterprise'],
+  [1,'cathedral'],
+  [1,'chocolate'],
+  [1,'coffee'],
+  [1,'cold_weather','winter'],
+  [1,'comic','comedian','amusing','comical','funny','laughable','mirthful','risible'],
+  [0,'country walk','country walks'],
+  [1,'cross-country_skiing'],
+  [1,'entertainment','amusement'],
+  [0,'fish market'],
+  [1,'flower'],
+  [1,'fountain','fount'],
+  [1,'friendly'],
+  [1,'gallery','veranda'],
+  [1,'hike','hiking'],
+  [1,'history'],
+  [0,'horse riding','horse-riding','horse ride','ride horse'],
+  [0,'lake'],
+  [0,'legoland'],
+  [0,'brand shopping','brand store'],
+  [0,'meeting new','new people'],
+  [1,'monument'],
+  [1,'mountain_bike'],
+  [1,'mythology'],
+  [1,'nightlife'],
+  [0,'backcountry skiing','off-piste skiing','out-of-area skiing'],
+  [1,'oktoberfest'],
+  [0,'people watching','people-watching','watching people'],
+  [1,'pizza'],
+  [0,'roman ruins'],
+  [0,'safari','hunting expedition','observing animal',''],
+  [0,'shark diving'],
+  [1,'shopping']
+  ,[0,'shop for art','art store','shopping art','art shopping','shopping for art','art shop']
+  ,[1,'electronics']
+  ,[0,'cosmetic','make-up shop']
+  ,[0,'wine store','wine shop','shopping for wine']
+  ,[1,'sightseeing','sightsee']
+  ,[1,'skydive','sky_dive','skydiving','sky_diving']
+  ,[1,'spicy','piquant']
+  ,[1,'sport']
+  ,[1,'stargazing','stargaze']
+  ,[1,'surfing','surfboard']
+  ,[1,'swimming_pool']
+  ,[1,'tranquility','repose','quietness','serenity','calmness']
+  ,[1,'tropical']
+  ,[0,'unesco site']
+  ,[0,'universal studio']
+  ,[1,'volcano','vent']
+  ,[0,'waffle']
+  ,[1,'windsurf']
+  ,[1,'yoga']
+  ,[1,'atmosphere','ambiance','ambience']
+  ,[0,'autumn leaves','autumn leaf'] 
+  ,[0,'birdwatching','bird-watching','birdwatch','bird','bird watch','bird-watch','watch bird','watch-bird']
+  ,[1,'boating']
+  ,[0,'budget friendly','inexpensive','affordable','budget-friendly','cheap','economical','half-price','low-cost','low-priced','reasonable price']
+  ,[1,'carnival']
+  ,[0,'city trip','citytrip','city-trip','city tour','citytour','city-tour']
+  ,[1,'classical_music']
+  ,[1,'nightclub','clubbing']
+  ,[1,'culture']
+  ,[0,'downhill skiing','alpine skiing']
+  ,[0,'farmer-market','farmers-market','farmer market','farmers market','farmersmarket','farmer's market',"farmers' market"]
+  ,[0,'fast-food','tater tot','chili','sandwich','subway','burger','cookies','kfc','hot dog','fries','pizza','milkshake']
+  ,[0,'museum of fine art','fine art museum','fine arts museum']
+  ,[0,'fish & chip','fish and chip']
+  ,[1,'fishing']
+  ,[1,'food']
+  ,[0,'food truck','foodtruck','food-truck']
+  ,[0,'glacier']
+  ,[1,'golf']
+  ,[1,'high_tea']
+  ,[0,'inca ruins','inca-ruins']
+  ,[0,'indoor-ski','indoor ski','indoor skiing']
+  ,[0,'kite-surfing','kite surfing','kitesurfing']
+  ,[0,'modern art','modern-art']
+  ,[1,'mountain']
+  ,[0,'naturalist beach','natural beach']
+  ,[1,'mercantile_establishment']
+  ,[0,'paragliding']
+  ,[1,'restaurant']
+  ,[0,'river fishing']
+  ,[0,'road trip']
+  ,[0,'seaside','coast','oceanfront','seafront','seashore','strand']
+  ,[1,'skateboarding','skateboard']
+  ,[1,'snorkeling','snorkel']
+  ,[0,'flea market','street market']
+  ,[0,'street performer']
+  ,[0,'street performer']
+  ,[1,'sushi']
+  ,[1,'temple']
+  ,[1,'theme_park','amusement_park']
+  ,[]
+  ,[1,'whale']
+  ,[1,'wildlife']
+  ,[1,'menagerie','zoo']
+  ,[1,'motorcycling']
+  ,[0,'ice skating', 'short-track speed skating', 'speed skating', 'skiing', 'alpine skiing', 'biathlon', 'skiing', 'nordic combined', 'ski archery', 'skiboarding', 'skibob', 'skijoring', 'ski jumping', 'snowkiting', 'speed skiing', 'speed riding', 'telemark skiing', 'sledding', 'bobsled', 'dogsled racing', 'ice blocking', 'luge', 'skeleton', 'wok racing', 'snowboarding', 'boardercross', 'slalom', 'snowskating', 'slopestyle', 'snowmobiling', 'bandy', 'broomball', 'curling', 'ice hockey', 'ice stock sport', 'ringette', 'rink bandy', 'sledge hockey', 'snow rugby', 'snow snake', 'synchronized skating', 'ice boating', 'ice sailing', 'ice fishing', 'ice swimming', 'shinny', 'snowball fight', 'tobogganing', 'snowshoeing']
+   ]  
+
+
+
+
+  
+  
+
+ 
+
+
+
+for synset object :
+
+[ [0,'amateur archaeology'],
+  [2,wn.synsets('archeology')[0] ],
+  [0,'bar'],
+  [2,wn.synsets('beach')[0] ],
+  [2,wn.synsets('cafe')[0] ],
+  [0,'chinatown'],
+  [2,Synset('christmas.n.01'), Synset('christmas.n.02')],
+  [2,Synset('church.n.01'), Synset('church.n.02')],
+  [0,'city walk','citywalks','citywalk'],
+  [0,'clean streets','cleanstreet','clean street','cleanstreets','clean-street','clean-streets']
+  ,[2,Synset('countryside.n.01')]
+  ,[0,'deep sea fishing','deep-sea fishing']
+  ,[2,Synset('desert.n.01')]
+  ,[2,Synset('diving.n.01'), Synset('dive.n.02'), Synset('dive.v.02'), Synset('dive.v.03')]
+  ,[2,Synset('dolphinfish.n.02'), Synset('dolphin.n.02')]
+  ,[2,Synset('excursion.n.01'), Synset('digression.n.03')]
+  ,[2,Synset('manner.n.01'), Synset('fashion.n.02'), Synset('fashion.n.03'), Synset('fashion.n.04'), Synset('fashion.v.01')]
+  ,[2,Synset('football.n.01'), Synset('football.n.02')]
+  ,[2,Synset('forest.n.01'), Synset('forest.n.02')]
+  ,[2,Synset('gambling.n.01'), Synset('gamble.v.01'), Synset('gamble.v.02')]
+  ,[0,'healthy food','healthy meal','healthy breakfast','healthy lunch','healthy cuisine','healthy diet','healthy snack']
+  ,[2,Synset('horse_racing.n.01')]
+  ,[0]
+  ,[2,Synset('kayak.v.01')]
+  ,[0,'live music']
+  ,[2,Synset('mountain_climbing.n.01'), Synset('mountaineer.v.01')]
+  ,[2,Synset('museum.n.01')]
+  ,[0,'nature walk']
+  ,[2,Synset('aurora_borealis.n.01')]
+  ,[2,Synset('paella.n.01')]
+  ,[2,Synset('park.n.01'), Synset('park.n.02'), Synset('ballpark.n.01'), Synset('park.n.04')]
+  ,[2,Synset('photography.n.01'), Synset('photography.n.02'), Synset('photography.n.03')],
+  ,[2,Synset('promenade.n.01'), Synset('promenade.n.02'), Synset('promenade.n.03'), Synset('promenade.n.04'), Synset('amble.n.01'), Synset('parade.v.02'), Synset('promenade.v.02')],
+  ,[2,Synset('raft.v.01'), Synset('raft.v.02'), Synset('raft.v.03')]
+  ,[2,Synset('rain_forest.n.01')]
+  ,[2,Synset('reef.n.01'), Synset('witwatersrand.n.01'), Synset('reef.n.03'), Synset('reef.v.01'), Synset('reef.v.02'), Synset('reef.v.03')]
+  ,[2,Synset('relaxation.n.01'), Synset('relaxation.n.02'), Synset('easiness.n.01'), Synset('relaxation.n.04'), Synset('rest.n.02'), Synset('relaxation.n.06'), Synset('liberalization.n.01')],
+  ,[2,Synset('riverbank.n.01'), Synset('riverside.n.02')]
+  ,[2,Synset('romantic.n.01'), Synset('romanticist.n.02'), Synset('romantic.a.01'), Synset('amatory.s.01'), Synset('quixotic.s.01')],
+  ,[2,Synset('seafaring.n.01'), Synset('sailing.n.02'), Synset('sailing.n.03'), Synset('glide.n.03'), Synset('sail.v.01'), Synset('sweep.v.02'), Synset('sail.v.03'), Synset('voyage.v.01')],
+  ,[2,Synset('beach.n.01')]
+  ,[2,Synset('seafood.n.01')]
+  ,[2,Synset('accessory.n.01'), Synset('accessory.n.02'), Synset('accessory.n.03')]
+  ,[2,Synset('apparel.n.01'), Synset('dress.v.02'), Synset('invest.v.03'), Synset('clothe.v.03')]
+  ,[2,Synset('food.n.01'), Synset('food.n.02'), Synset('food.n.03')]
+  ,[2,Synset('shoe.n.01'), Synset('shoe.n.02')]
+  ,[2,Synset('skyline.n.01'), Synset('horizon.n.01')]
+  ,[2,Synset('souk.n.01')]
+  ,[2,Synset('sunset.n.01'), Synset('sunset.n.02'), Synset('sunset.n.03')]
+  ,[2,Synset('tango.n.01'), Synset('tango.n.02')]
+  ,[2,Synset('tapa.n.01'), Synset('tapa.n.02')]
+  ,[0,'warm weather','warm-weather']
+  ,[2,Synset('health.n.01')]
+  ,[0,'wine travel','wine tour']
+  ,[2,Synset('climb.n.02'), Synset('climb.v.01'), Synset('climb.v.02'), Synset('wax.v.02'), Synset('climb.v.04'), Synset('climb.v.05')],
+  ,[0,'aeroplane flying', 'aerobatics', 'air sphering', 'astronomy', 'base jumping', 'bungee jumping', 'falconry', 'gliding', 'gyrocopter flying', 'hang gliding', 'helicopter flights', 'hot air balloon rides', 'indoor skydiving', 'kites', 'microlights', 'model airplanes', 'model rockets', 'paragliding', 'paramotoring', 'parascending', 'scad', 'suspended catch air device', 'skydiving', 'wing walking', 'adventure races', 'air rifle', 'air pistol shooting', 'airsoft', 'american football', 'animal parks', 'wildlife parks', 'zoos', 'archery', 'athletics', 'backyard sleepovers', 'badminton', 'baseball', 'softball', 'basketball', 'baton twirling', 'battle reenactments', 'beach', 'beachcombing', 'bicycle polo', 'bird watching', 'bmx biking', 'boccia', 'bouldering', 'bowls', 'brushboarding', 'bushcraft', 'camel trekking', 'camogie', 'camping', 'canyoning', 'canyoneering', 'capoeira', 'carnivals', 'carriage driving', 'cave biking underground', 'caving', 'potholing', 'cheerleading', 'chinese martial arts', 'circus skills', 'clay pigeon shooting', 'climbing', 'concert', 'festival', 'gig', 'conkers', 'cookout', 'crazy golf', 'mini golf', 'pitch and putt', 'cricket', 'croquet', 'cycling', 'dance', 'street dance', 'den building', 'bivouacs', 'digger and jcb driving', 'dodgeball', 'dog scootering', 'drag racing', 'driving', 'duathlon', 'eclipse sphering', 'eclipse zorbing', 'equestrian', 'horse riding', 'racing', 'dressage', 'exercise and fitness', 'exploring holidays', 'fencing', 'fives', 'rugby', 'floorball', 'folk dancing', 'footbags', 'football and soccer', 'free running', 'parkour', 'fruit picking', 'fun fairs', 'futsal', 'gaelic football', 'gap year travelling', 'gardening', 'geocaching', 'gladiator training', 'goalball', 'go ape', 'go karting', 'golf holidays', 'grass skiing', 'grass sledging', 'grass karting', 'greyhound racing', 'grouse shooting', 'gymnastics', 'handball', 'harness racing', 'hiking holidays', 'hockey', 'horse boarding', 'horse racing', 'horse riding', 'hurling', 'jogging', 'running', 'jousting', 'kite boarding', 'kite buggying', 'korfball', 'lacrosse', 'landboarding', 'land sailing', 'land yachting', 'landscape painting', 'laser clay shooting', 'laser tag', 'lawn mower racing', 'llama trekking', 'marathon running', 'minimoto', 'modern pentathlon', 'monster truck', 'motorcycling', 'motocross', 'dirt biking', 'motor sports', 'mountain bikes', 'mountain boarding', 'mountaineering', 'mud racing', 'nascar', 'netball', 'obstacle course races', 'open air theatre', 'orienteering', 'outdoor movie theatres', 'outdoor photography', 'paintballing', 'ping pong', 'picnics', 'football', 'sunbathing', 'pentathlon', 'petanque', 'picnics', 'piggy back fights', 'pogo', 'pony trekking', 'polo', 'polocrosse', 'quad biking', 'rally driving', 'rambling', 'remote control cars', 'rock climbing', 'roller coasters', 'theme parks', 'roller skating', 'roller blading', 'hockey', 'rope swings', 'rounders', 'quoits', 'safari', 'sandboarding', 'scavenger hunts', 'scooter freestyle', 'segway offroading', 'shinty', 'shooting', 'show jumping', 'skateboarding', 'skeet shooting', 'skid pan', 'skipping', 'sightseeing', 'slacklining', 'soap box kart racing', 'extreme gravity racing', 'softball', 'soft martial arts', 'speedway', 'sphering', 'steam train', 'stock car racing', 'demolition derby', 'stoolball', 'street hockey', 'street improvisation', 'drama', 'street luge', 'downhill skateboarding', 'downhill skating', 'table tennis', 'tag rugby', 'tank driving', 'tennis', 'throw and catch', 'frisbee', 'tractor pulling', 'trail running', 'trampolining', 'treasure hunting', 'metal detectors', 'tree climbing', 'treehouses', 'triathlon events', 'tug of war', 'unicycling', 'via ferrata', 'volleyball', 'walking holidays', 'walk the dog', 'watch the sunrise or sunset', 'water fights', 'wildlife conservation', 'wildlife watching holidays', 'yoga', 'zorbing', 'argo cats', 'banana rides', 'blackwater rafting', 'boating, pedalos and punts', 'body boarding', 'bore surfing', 'bridge jumping', 'canoeing', 'cave diving', 'coasteering', 'crabbing', 'diving (swimming)', 'dragon boat racing', 'exploring rock pools', 'fishing trips', 'flyboard, waterjet powered hover board', 'free diving', 'hovercraft experience', 'hydrospeeding and riverboarding', 'jet skiing', 'kayaking', 'kitesurfing', 'kneeboarding', 'model boats', 'motor cruising holidays', 'narrow boat holidays', 'octopush underwater hockey', 'pond dipping', 'pooh sticks, paper boats, duck races and dam building', 'powerboating courses', 'raft building', 'rib riding', 'river bugging', 'rowing', 'sailing', 'scuba diving', 'skim boarding', 'snorkelling', 'stand up paddleboarding', 'surfing', 'surf life saving', 'swimming', 'tall ship holidays', 'tombstoning', 'wakeboarding', 'water jet pack flying', 'water parks and flumes', 'water polo', 'water skiing', 'waterwalkerz water sphering', 'waveskiing', 'whale watching holidays', 'whitewater rafting trips', 'wild swimming', 'windsurfing', 'yacht charters', 'yachting', 'zap cat racing', 'ice skating', 'short-track speed skating', 'speed skating', 'skiing', 'alpine skiing', 'biathlon', 'skiing', 'nordic combined', 'ski archery', 'skiboarding', 'skibob', 'skijoring', 'ski jumping', 'snowkiting', 'speed skiing', 'speed riding', 'telemark skiing', 'sledding', 'bobsled', 'dogsled racing', 'ice blocking', 'luge', 'skeleton', 'wok racing', 'snowboarding', 'boardercross', 'slalom', 'snowskating', 'slopestyle', 'snowmobiling', 'bandy', 'broomball', 'curling', 'ice hockey', 'ice stock sport', 'ringette', 'rink bandy', 'sledge hockey', 'snow rugby', 'snow snake', 'synchronized skating', 'ice boating', 'ice sailing', 'ice fishing', 'ice swimming', 'shinny', 'snowball fight', 'tobogganing', 'snowshoeing']
+
+  ,[0]
+  ,[0,'ancient building','historical building','ancient monument','historical monument','historical park','historical place','ancient landmark','ancient landmarks']
+  ,[2,Synset('aquarium.n.01')]  
+  ,[2,Synset('architecture.n.01'), Synset('architecture.n.02'), Synset('architecture.n.03')]
+  ,[2,Synset('art.n.01'), Synset('art.n.02'), Synset('art.n.03'), Synset('artwork.n.01')]
+  ,[2,Synset('gallery.n.03')]
+  ,[0]
+  ,[0,'beautiful forest','beautiful jungle','beautiful woodland','beautiful woods','charming forest','stunning forest']
+  ,[2,Synset('palace.n.01'), Synset('castle.n.02'), Synset('castle.n.03'), Synset('castle.n.04')]
+  ,[2,Synset('cheese.n.01')]
+  ,[0]
+  ,[0]
+  ,[2,Synset('cocktail.n.01'), Synset('cocktail.n.02')]
+  ,[2,Synset('public_transport.n.01'),Synset('train.n.01'),Synset('bus.n.01')]
+  ,[2,Synset('country_music.n.01')]
+  ,[2,Synset('cycling.n.01'), Synset('cycle.v.01'), Synset('cycle.v.02'), Synset('motorbike.v.01'), Synset('bicycle.v.01'), Synset('cycle.v.05')]
+  ,[0,'dim sum']
+  ,[2,Synset('disneyland.n.01')]
+  ,[0,'family']
+  ,[0,'fine dining']
+  ,[2,Synset('flamenco.n.01'), Synset('flamenco.n.02')]
+  ,[0,'gourmet food']
+  ,[2,Synset('seaport.n.01'), Synset('harbor.n.02')]
+  ,[2,Synset('watering_place.n.01'), Synset('resort_hotel.n.02'), Synset('health_spa.n.01')]
+  ,[0,'heli-skiing','heliskiing']
+  ,[2,Synset('hot_springs.n.01'), Synset('hot_spring.n.01')]
+  ,[0,'ice sculpture']
+  ,[2,Synset('jazz.n.02'), Synset('jazz.n.03'), Synset('jazz.v.01')]
+  ,[0,'local food']
+  ,[2,Synset('market.n.01'), Synset('market.n.02'), Synset('grocery_store.n.01'), Synset('market.n.04'), Synset('marketplace.n.02')]
+  ,[0,'maya ruins','maya-ruins']
+  ,[0,'mini golf','minigolf','mini-golf']
+  ,[0,'mountain walks','mountain walk']
+  ,[2,Synset('musical.n.01'), Synset('musical.a.01'), Synset('musical.a.02'), Synset('musical.a.03'), Synset('melodious.a.02')]
+  ,[2,Synset('nature.n.03')]
+  ,[0,'night market','night-market']
+  ,[0,'old town','old-town','old city']
+  ,[2,Synset('opera.n.01'),Synset('opera.n.03')]
+  ,[0,'organic food']
+  ,[0,'pebble beach','pebble-beach']
+  ,[2,Synset('public_house.n.01')]
+  ,[0,'route 66']
+  ,[2,Synset('rugby.n.01')]
+  ,[2,Synset('run.v.01')]
+  ,[2,Synset('scenery.n.01'), Synset('scenery.n.02')]
+  ,[2,Synset('antique.s.01'),Synset('antique.n.02'), Synset('antique.v.01')]
+  ,[2,Synset('snowboarding.n.01'), Synset('snowboard.v.01')]
+  ,[0,'street food','streetfood','street-food']
+  ,[2,Synset('sun_bathing.n.01')]
+  ,[0,'sunshiny', 'sunny']
+  ,[2,Synset('theater.n.01'), Synset('dramaturgy.n.01')]
+  ,[2,Synset('tourism.n.01')]
+  ,[2,Synset('tour.n.01'),Synset('tour.v.01')]
+  ,[0,'walking trail','trail walking']
+  ,[2,Synset('vineyard.n.01')]
+  ,[0]
+  ,[2,Synset('waterfall.n.01')]
+  ,[2,Synset('swimming.n.01'), Synset('swim.v.01')]
+  ,[2,Synset('adventure.n.01')]
+  ,[2,Synset('beer.n.01')]
+  ,[2,Synset('arboretum.n.01')]
+  ,[2,Synset('business.n.01'), Synset('commercial_enterprise.n.02'),Synset('business.n.06')]
+  ,[2,Synset('cathedral.n.01'), Synset('cathedral.n.02'), Synset('cathedral.a.01')]
+  ,[2,Synset('cocoa.n.01'), Synset('chocolate.n.02'), Synset('chocolate.n.03')]
+  ,[2,Synset('coffee.n.01'), Synset('coffee.n.02'), Synset('coffee_bean.n.01'), Synset('chocolate.n.03')]
+  ,[2,Synset('winter.n.01')]
+  ,[2,Synset('comedian.n.01'), Synset('amusing.s.02'), Synset('comic.a.02')]
+  ,[0,'country walk','country walks']
+  ,[2,Synset('cross-country_skiing.n.01')]
+  ,[2,Synset('entertainment.n.01')]
+  ,[0,'fish market']
+  ,[2,Synset('flower.n.01')]
+  ,[2,Synset('fountain.n.01'), Synset('spring.n.03'), Synset('fountain.n.03'), Synset('fountain.n.04')]
+  ,[2,Synset('friendly.a.01')]
+  ,[2,Synset('veranda.n.01'), Synset('gallery.n.03'),Synset('gallery.n.05'), Synset('gallery.n.06')]
+  ,[2,Synset('hike.n.01'), Synset('hike.v.02')]
+  ,[2,Synset('history.n.05')]
+  ,[0,'horse riding','horse-riding','horse ride','ride horse']
+  ,[2,Synset('lake.n.01')]
+  ,[0,'legoland']
+  ,[0,'brand shopping','brand store']
+  ,[0,'meeting new','new people']
+  ,[2,Synset('memorial.n.03'), Synset('monument.n.02')]
+  ,[2,Synset('mountain_bike.n.01')]
+  ,[2,Synset('mythology.n.01'), Synset('mythology.n.02')]
+  ,[2,Synset('nightlife.n.01'), Synset('nightlife.n.02')]
+  ,[0,'backcountry skiing','off-piste skiing','out-of-area skiing']
+  ,[2,Synset('oktoberfest.n.01'), Synset('oktoberfest.n.02')]
+  ,[0,'people watching','people-watching','watching people']
+  ,[2,Synset('pizza.n.01')]
+  ,[0,'roman ruins']
+  ,[2,Synset('campaign.n.04')]
+  ,[0,'shark diving']
+  ,[2,Synset('shopping.n.01'), Synset('shopping.n.02'), Synset('shop.v.01'), Synset('patronize.v.02'), Synset('shop.v.03')]
+  ,[0,'shop for art','art store','shopping art','art shopping','shopping for art','art shop']
+  ,[2,Synset('electronics.n.01')]
+  ,[2,Synset('makeup.n.01')]
+  ,[0,'wine store','wine shop','shopping for wine']
+  ,[2,Synset('sightsee.v.01')]
+  ,[2,Synset('sky_dive.v.01'),Synset('skydiving.n.01')]
+  ,[2,Synset('piquant.s.01')]
+  ,[2,Synset('sport.n.01'), Synset('sport.n.02'),Synset('sport.n.05')]
+  ,[2,Synset('stargazing.n.01'), Synset('stargaze.v.01')]
+  ,[2,Synset('surfing.n.01'), Synset('surfboard.v.01')]
+  ,[2,Synset('swimming_pool.n.01')]
+  ,[2,Synset('repose.n.03'), Synset('tranquillity.n.01'), Synset('tranquillity.n.02')]
+  ,[2,Synset('tropical.s.01'), Synset('tropical.s.04')]
+  ,[0,'unesco site']
+  ,[0,'universal studio']
+  ,[2,Synset('vent.n.03'), Synset('volcano.n.02')]
+  ,[2,Synset('waffle.n.01')
+  ,[2,Synset('water_sport.n.01')]
+  ,[2,Synset('windsurf.v.01')]
+  ,[2,Synset('yoga.n.01'), Synset('yoga.n.02')]
+  ,[2,Synset('atmosphere.n.01'), Synset('ambiance.n.02')]
+  ,[2,Synset('atmosphere.n.01')]
+  ,[0,'autumn leaves','autumn leaf']
+  ,[0,'birdwatching','bird-watching','birdwatch','bird','bird watch','bird-watch','watch bird','watch-bird']
+  ,[2,Synset('boating.n.01'), Synset('boat.v.01')]
+  ,[0,'budget friendly','inexpensive','affordable','budget-friendly','cheap','economical','half-price','low-cost','low-priced','reasonable price']
+  ,[2,Synset('carnival.n.01'), Synset('circus.n.03'), Synset('carnival.n.03')]
+  ,[0,'city trip','citytrip','city-trip','city tour','citytour','city-tour']
+  ,[2,Synset('classical_music.n.01')]
+  ,[2,Synset('club.v.01'), Synset('club.v.02')]
+  ,[2,Synset('culture.n.01'), Synset('culture.n.02')]
+  ,[0,'downhill skiing','alpine skiing']
+  ,[0,'farmer-market','farmers-market','farmer market','farmers market','farmersmarket','farmer's market',"farmers' market"]
+  ,[2,Synset('fast_food.n.01')]
+  ,[0,'museum of fine art','fine art museum','fine arts museum']
+  ,[0,'fish & chip','fish and chip']
+  ,[2,Synset('fishing.n.01'), Synset('fishing.n.02'), Synset('fish.v.02')]
+  ,[2,Synset('food.n.01'), Synset('food.n.02')]  
+  ,[0,'food truck','foodtruck','food-truck']
+  ,[0,'glacier']
+  ,[2,Synset('golf.n.01'), Synset('golf.v.01')]
+  ,[2,Synset('high_tea.n.01')]
+  ,[0,'inca ruins','inca-ruins']
+  ,[0,'indoor-ski','indoor ski','indoor skiing']
+  ,[0,'kite-surfing','kite surfing','kitesurfing']
+  ,[0,'modern art','modern-art']
+  ,[2,Synset('mountain.n.01')]
+  ,[0,'naturalist beach','natural beach']
+  ,[2,Synset('mercantile_establishment.n.01')]
+  ,[2,Synset('parasailing.n.01')]
+  ,[2,Synset('restaurant.n.01')]
+  ,[0,'river fishing']
+  ,[0,'road trip']
+  ,[2,Synset('seaside.n.01')]
+  ,[2,Synset('skateboarding.n.01'), Synset('skateboard.v.01')]
+  ,[2,Synset('snorkeling.n.01'), Synset('snorkel.v.01')]
+  ,[0,'flea market','street market']
+  ,[2,Synset('sushi.n.01')]
+  ,[2,Synset('temple.n.01')]
+  ,[2,Synset('theme_park.n.01')]
+  ,[0]
+  ,[2,Synset('whale.n.02')]
+  ,[2,Synset('wildlife.n.01')]
+  ,[2,Synset('menagerie.n.02')]
+  ,[2,Synset('motorcycling.n.01'), Synset('motorbike.v.01')]
+  ,[0,'ice skating', 'short-track speed skating', 'speed skating', 'skiing', 'alpine skiing', 'biathlon', 'skiing', 'nordic combined', 'ski archery', 'skiboarding', 'skibob', 'skijoring', 'ski jumping', 'snowkiting', 'speed skiing', 'speed riding', 'telemark skiing', 'sledding', 'bobsled', 'dogsled racing', 'ice blocking', 'luge', 'skeleton', 'wok racing', 'snowboarding', 'boardercross', 'slalom', 'snowskating', 'slopestyle', 'snowmobiling', 'bandy', 'broomball', 'curling', 'ice hockey', 'ice stock sport', 'ringette', 'rink bandy', 'sledge hockey', 'snow rugby', 'snow snake', 'synchronized skating', 'ice boating', 'ice sailing', 'ice fishing', 'ice swimming', 'shinny', 'snowball fight', 'tobogganing', 'snowshoeing']
+  ]
+

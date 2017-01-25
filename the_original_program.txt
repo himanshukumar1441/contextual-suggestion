@@ -1,0 +1,53 @@
+'''
+the original program
+'''
+
+import urllib2
+import os
+
+def get_page(url):
+    proxy = urllib2.ProxyHandler({'http':'http://070.13095027:hitesh@10.1.1.16:80'})
+    auth = urllib2.HTTPBasicAuthHandler()
+    opener = urllib2.build_opener(proxy, auth, urllib2.HTTPHandler)
+    urllib2.install_opener(opener)
+    
+    ext_url = 'http://rca.yandex.com/?key=rca.1.1.20150603T144943Z.76903dae1a9f9fec.f4a17e6b73f7c4212ae623035618a6afee5e08fa&url=%s'%(url)
+    try :
+        conn = urllib2.urlopen(ext_url)
+    except (urllib2.HTTPError,urllib2.URLError) :
+        content = "    "
+    else:
+        content = conn.read()
+    
+    if content.find('"content"') == -1 :
+        try :
+            ext_url = 'https://boilerpipe-web.appspot.com/extract?url=%s&extractor=LargestContentExtractor&output=text&extractImages='%url
+            conn = urllib2.urlopen(ext_url)
+        except (urllib2.HTTPError,urllib2.URLError) :
+            content = '   '
+        else:
+            content = conn.read()
+    else:
+        ind = content.rfind('"content"')
+        content = content[ind+11:-3]
+    
+    if ',' in content :
+        content  = content.replace(',',' ')
+    if '.' in content :
+        content = content.replace('.',' .')
+    final_list = content.split()
+   
+    try :
+        final_index= final_list[30:].index(".")
+    except ValueError:
+        final_index = -1
+    
+    if  final_index != -1:
+        final_co = final_list[0:final_index+31]
+        final_con = " ".join( i for i in final_co )
+    else:
+        final_con = content
+    #print final_con
+    #print content
+    return final_con
+
