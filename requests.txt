@@ -1,8 +1,6 @@
 {"body": {"group": "Friends", "season": "Winter", "person": {"gender": "female", "age": 34.0, "preferences": [
 
 {"rating": 3, "documentId": "TRECCS-00006759-161", "tags": ["Gourmet Food", "Restaurants"]},
-
- 
 {"rating": 3, "documentId": "TRECCS-00006762-161", "tags": ["Parks", "outdoor activities"]}, 
 {"rating": 2, "documentId": "TRECCS-00006765-161", "tags": ["Parks", "outdoor activities"]}, 
 {"rating": 3, "documentId": "TRECCS-00006844-161", "tags": ["Gourmet Food", "Restaurants"]}, 
@@ -66,10 +64,3 @@
 
 
 
-//these 30 document id's are to be arranged in order//
-"candidates": ["TRECCS-00016448-209", "TRECCS-00016449-209", "TRECCS-00016477-209", "TRECCS-00016559-209", "TRECCS-00222280-209",
-"TRECCS-00222301-209", "TRECCS-00222327-209", "TRECCS-00222521-209", "TRECCS-00222587-209", "TRECCS-00223446-209", 
-"TRECCS-00270524-209", "TRECCS-00270537-209", "TRECCS-00270556-209", "TRECCS-00288868-209", "TRECCS-00662503-209",
-"TRECCS-00662559-209", "TRECCS-00662692-209", "TRECCS-00662797-209", "TRECCS-00662897-209", "TRECCS-00662963-209",
-"TRECCS-00663034-209", "TRECCS-00663243-209", "TRECCS-00851098-209", "TRECCS-00851224-209", "TRECCS-00851350-209", 
-"TRECCS-01451326-209", "TRECCS-01451436-209", "TRECCS-01451437-209", "TRECCS-01451527-209", "TRECCS-01451620-209"], "id": 12}
